@@ -3,6 +3,7 @@ import typing
 
 from utils import *
 
+
 def submit_payment(
         amount: float, account_id: str, reference: typing.Optional[str] = None
 ) -> None:

@@ -1,11 +1,6 @@
 # Example 1
 from utils import *
 
-class PaymentProcessor:
-    def submit(self, *args, **kwargs):
-        pass
-payment_processor = PaymentProcessor()
-
 
 def submit_payment(amount, account_id, reference=None):
     """
@@ -22,5 +17,4 @@ def submit_payment(amount, account_id, reference=None):
 
 
 submit_payment(12.3, 'INTERNAL_123', 'Paying interest')
-
 submit_payment('12.3', 123, 42)
