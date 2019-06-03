@@ -1,0 +1,7 @@
+venv*
+.idea*
+local*
+.ipynb_checkpoints*
+.mypy_cache*
+*.py[cod]
+*.ipynb
