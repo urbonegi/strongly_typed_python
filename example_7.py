@@ -125,6 +125,7 @@ class Payment(metaclass=StrongTyping):
         return 'PENDING' if self.timestamp > timestamp.timestamp() else 'COMMITTED'
 
 
-print(Payment.__doc__)
-print(Payment.__init__.__doc__)
-print(Payment.get_status.__doc__)
+if __name__ == '__main__':
+    print(Payment.__doc__)
+    print(Payment.__init__.__doc__)
+    print(Payment.get_status.__doc__)

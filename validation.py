@@ -37,7 +37,7 @@ def _validate_type(expected_type, given_value):
 def validate_type(expected_type, given_value, property_name):
     if not _validate_type(expected_type, given_value):
         raise TypeError(
-            'Attribute \'{}\' value - {} does not match '
+            'Attribute `{}` value - `{}` does not match '
             'type declared in annotations - {}.'.format(
                 property_name,
                 given_value,

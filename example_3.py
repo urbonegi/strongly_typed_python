@@ -57,6 +57,6 @@ def submit_payment(
     return
 
 
-submit_payment('12.3', 123, 42)
+submit_payment('test', 123, 42)
 
 
